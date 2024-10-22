@@ -35,4 +35,4 @@ To run the project, simply open `index.html` in your browser. The entire project
 4. **Cart**: Users can add products to their cart and proceed to place orders.
 
 ## Visit the Project
-To visit the live version of this project, click [here](https://ameenzehra.github.io/Catering-app/).
+To visit the live version of this project, click https://ameenzehra.github.io/Catering-app/
