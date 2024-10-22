@@ -1,0 +1,106 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #ffffff; /* White text for better contrast */
+}
+
+/* CSS for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px; /* Add some margin for spacing */
+}
+
+/* Style for table headers and cells */
+th, td {
+    border: 1px solid #555; /* Darker border for better visibility */
+    padding: 8px;
+    text-align: left;
+    color: #ffffff; /* White text color for better contrast */
+}
+
+/* Style for table headers */
+th {
+    background-color: #444; /* Dark background for headers */
+    color: #ffa500; /* Bright orange for header text */
+}
+
+/* CSS for the tbody */
+tbody {
+    background-color: #222; /* Dark background for tbody */
+}
+
+/* CSS for the tfoot */
+tfoot {
+    background-color: #444; /* Dark background for footer */
+}
+
+/* Highlight even rows */
+tbody tr:nth-child(even) {
+    background-color: #333; /* Slightly lighter dark color for even rows */
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    background-color: #555; /* Darker shade on hover */
+}
+
+/* Style for links (if any) within table cells */
+td a {
+    color: #ffa500; /* Bright orange for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+td a:hover {
+    text-decoration: underline; /* Underline links on hover for emphasis */
+}
+
+/* Other element styles for consistency */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffa500; /* Orange headings */
+}
+
+/* Button styles */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Style for number inputs */
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+
+/* Style for place order button */
+#placeOrderButton {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#placeOrderButton:hover {
+    background-color: #45a049;
+}

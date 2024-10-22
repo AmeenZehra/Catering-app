@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for the entire page */
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1f1f1f; /* Darker sidebar */
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.sidebar h2 {
+    color: #fff;
+    text-align: center;
+    line-height: 40px; /* Center-align headings vertically */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 8px;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+    margin-left: 35px;
+}
+
+.sidebar a:hover {
+    background-color: #444; /* Slightly lighter on hover */
+}
+
+.content {
+    margin-left: 250px; /* Space for the sidebar */
+    padding: 20px;
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+}
+
+#sign-out {
+    display: block;
+    margin-top: 50px;
+    margin-left: 35px;
+    padding: 10px 30px;
+    background-color: #f44336; /* Red color for sign-out button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+#sign-out:hover {
+    background-color: #d32f2f; /* Darker red color on hover */
+}
+
+.food-item {
+    border: 1px solid #333; /* Darker border */
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(33.33% - 40px); /* Adjust for spacing */
+    margin-bottom: 20px;
+    background-color: #1f1f1f; /* Dark background for food items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    transition: transform 0.3s; /* Animation effect */
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align items */
+}
+
+.food-item:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.food-item img {
+    width: 100%; /* Ensure the image takes full width */
+    height: 150px; /* Fixed height for uniformity */
+    object-fit: cover; /* Cover the image container */
+    margin-bottom: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.food-item h3 {
+    margin-top: 0;
+    color: #ff9900; /* Bright color for headings */
+}
+
+.food-item p {
+    margin-bottom: 10px;
+    color: #ccc; /* Light grey for text */
+}
+
+.food-item button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 3px; /* Rounded button */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.food-item button:hover {
+    background-color: #45a049; /* Green color on hover */
+}
+
+.food-item-details {
+    position: absolute; /* Position details absolutely */
+    bottom: 0; /* Align at the bottom */
+    left: 0; /* Align to the left */
+    width: 100%; /* Take full width */
+    text-align: center; /* Center-align text */
+    color: #fff; /* Light text color for readability */
+}
+
+.food-item-details button {
+    margin-top: 10px; /* Adjust as needed */
+}

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the dark theme */
+    color: #fff; /* Text color changed to white for readability */
+}
+
+header {
+    background-color: #1e1e1e; /* Darker header */
+    padding: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align the navigation */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9800; /* Orange hover color for better visibility */
+}
+
+#welcome-section {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+h1 {
+    padding-top: 5px;
+}
+
+.background-image {
+    background-image: url('f1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 160px;
+    color: #fff;
+}
+
+#about-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1e1e1e; /* Dark background for about section */
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    color: #ff9800; /* Orange color for headings */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: #ddd; /* Lighter text color */
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* New styles for the login/register box */
+.auth-box {
+    background-color: #333; /* Dark box background */
+    border: 2px solid #ff9800; /* Orange border */
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    margin: 100px auto; /* Center the box */
+}
+
+.auth-box h2 {
+    color: #ff9800; /* Orange color for headings */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.auth-box button {
+    background-color: #ff9800; /* Orange buttons */
+    color: #fff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-box button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
